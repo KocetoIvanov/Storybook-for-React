@@ -1,0 +1,29 @@
+.btn {
+    border: 0;
+    border-radius: 0.25rem;
+    background-color: #1E88E5;
+    color: white;
+    font-family: system-ui, sans-serif;
+    font-size: 1rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.btn--state-success {
+	background-color: #569E3D;
+}
+
+.btn--state-danger {
+    background-color: red;
+} 
+
+.btn--size-sm {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.btn--size-lg {
+    font-size: 18px;
+    padding: 10px;
+}

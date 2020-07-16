@@ -1,0 +1,32 @@
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
+import Button from "../components/Button.js";
+
+<Meta title="Button" />
+
+# Button
+
+Here is the place to describe the important things about your component. In this case, it is important to say what your component expects as parameters - <b>variant</b> (<b>success</b> or <b>danger</b>) and <b>size</b> (<b>lg</b> or <b>sm</b>).
+
+<Preview>
+  <Story name="large success button">
+      <Button variant="success" size={"lg"} >Large Success Button</Button>
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="large danger button">
+      <Button variant="danger" size={"lg"} >Large Danger Button</Button>
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="small success button">
+      <Button variant="success" size={"sm"} >Small Success Button</Button>
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="small danger button">
+      <Button variant="danger" size={"sm"} >Small Danger Button</Button>
+  </Story>
+</Preview>
